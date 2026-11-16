@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red Nathaniel | Profile</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b12;
+    color: white;
+}
+
+header {
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #252535;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #a78bfa;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(145deg, #191927, #10101a);
+    border: 1px solid #292940;
+    border-radius: 20px;
+}
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.profile h1 {
+    margin-top: 22px;
+    font-size: 36px;
+}
+
+.profile p {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 18px;
+    background: #30234e;
+    color: #c4b5fd;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.section {
+    margin-top: 25px;
+    padding: 28px;
+    background: #151520;
+    border: 1px solid #292940;
+    border-radius: 16px;
+}
+
+.section h2 {
+    color: #a78bfa;
+    margin-bottom: 18px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.info div {
+    background: #20202e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.info small {
+    color: #999;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.socials {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.socials a {
+    padding: 12px 20px;
+    background: #29233e;
+    color: #c4b5fd;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+
+@media(max-width: 600px) {
+    .info {
+        grid-template-columns: 1fr;
+    }
+
+    .profile h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">RN.</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#details">Details</a>
+        <a href="#socials">Socials</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="profile">
+        <div class="avatar">RN</div>
+        <h1>Red Nathaniel</h1>
+        <p>Welcome to my personal profile website.</p>
+        <span class="tag">PERSONAL PROFILE</span>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to the personal profile of Red Nathaniel.
+            This website is a simple introduction and a place
+            to showcase personal interests and achievements.
+        </p>
+    </section>
+
+    <section class="section" id="details">
+        <h2>Personal Information</h2>
+
+        <div class="info">
+            <div>
+                <small>Name</small>
+                <strong>Red Nathaniel</strong>
+            </div>
+
+            <div>
+                <small>Nickname</small>
+                <strong>Red</strong>
+            </div>
+
+            <div>
+                <small>Occupation</small>
+                <strong>Not specified</strong>
+            </div>
+
+            <div>
+                <small>Hobbies</small>
+                <strong>Not specified</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="socials">
+        <h2>Social Media</h2>
+
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Red Nathaniel | Personal Website
+</footer>
+
+</body>
+</html>
